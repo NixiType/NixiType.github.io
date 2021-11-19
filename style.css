@@ -1,0 +1,173 @@
+body{
+    background-image: url(bg.png);
+    font-family: sans-serif;
+}
+
+
+
+.topnav{
+    margin-top: 10%;
+}
+.nav{
+    
+    background-color: red;
+    width: 71.3%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.nav li{
+    display:inline;
+   
+}
+.nav a{
+    display:inline;
+    color: white;
+    
+}
+
+
+
+ .toppicture img{
+     display: table;
+    border:25px solid white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px #888888 ;
+}
+
+
+.row{
+    margin-left: 250px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+/* left side */
+
+#left{
+
+    margin: 20px;
+   height: 100%;
+    width: 15%; 
+    float:left;
+   background-color:white;
+   box-shadow:  2px 1px 5px #888888;
+   border: 40px solid white;
+}
+
+.leftsideH3{
+    background-color: white;
+    text-align: left;
+}
+
+.leftsideP{
+    text-align: justify;
+}
+
+.leftsideH3_2{
+    text-align: left;
+}
+
+.leftsideTable tr td{
+    padding: 8px;
+
+    text-decoration: underline 1px solid red;
+    color: red;
+    border-bottom: 1px dotted black;
+}
+
+/* center side*/
+
+.center{
+    margin: 20px;
+    width: 25%;
+    float: center;
+  height: 100%;
+   background-color:white;
+   box-shadow:  2px 1px 5px #888888;
+   border: 40px solid white;
+}
+
+.centersideTable tr:nth-child(even) {
+    background-color: #cdd3d3;
+  }
+  .centersideTable tr:nth-child(odd) {
+    background-color: #7b8686;
+  }
+
+.centersideTable{
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    outline: solid grey 2px ;
+}
+
+.centerside h1 {
+    margin-top: 0%;
+}
+
+.centerside p {
+    text-align: justify;
+    
+}
+
+.centerside img{
+    float: left;
+    margin-right: 15px;
+}
+
+.centerside h3{
+    margin-top: 125px;
+}
+
+.centersideP{
+    width: 50%;
+    float: left; width: 30%;
+}
+
+
+.centerTable1 tr td{
+    margin-top: 1000%;
+    padding: 8px;
+
+    text-decoration: underline 1px solid red;
+    color: red;
+    border-bottom: 1px dotted black;
+}
+
+#right{
+    margin: 20px;
+    width: 15%;
+    float: right;
+    height: 100%;
+   background-color:white;
+   box-shadow:  2px 1px 5px #888888;
+   border: 40px solid white;
+}
+
+.rightPic{
+    width: 100%;
+    height: 100%;
+}
+
+#bottom{
+    padding: 2px;
+   background-color: gray;
+   width: 60%;
+   margin-left: 25%;
+}
+.bottomText{
+    margin-left: 5px;
+    float: left;
+    margin: 5px;
+    color:white;
+}
+.bottomTable tr td{
+    
+    text-decoration: underline 1px solid white;
+    color: white;
+    border-bottom: 1px dotted white;
+}
